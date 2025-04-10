@@ -1,0 +1,21 @@
+{
+    "name": "sunil/module-orderprocessing",
+    "description": "Test Module",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Sunil"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sunil\\Orderprocessing\\": ""
+        }
+    }
+}
